@@ -76,7 +76,7 @@ var Character = (props) => {
 var CharacterD = (props) => {
     return (
         <div>
-            <StyledCharacter>Character Name: {props.characterInfo.name}</StyledCharacter>
+            <StyledCharacter>Name: {props.characterInfo.name}</StyledCharacter>
             <p>Character Species: {props.characterInfo.species}</p>
             <img src={props.characterInfo.image} alt="character image"/>
         </div>
